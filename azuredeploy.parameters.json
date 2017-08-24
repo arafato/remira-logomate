@@ -1,24 +1,21 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-      "adminUsername": {
-        "value": "remira"
-      },
-      "adminPassword": {
-        "value": "!Secret!-12"
-      },
-      "dnsLabelPrefix": {
-        "value": "remirafinal2"
-      },
-      "customerName": {
-          "value": "bvb"
-      },
-      "storageAccountNameScripts": {
-        "value": "remirascripts"  
-      },
-      "storageAccessKeyScripts": {
-          "value": "84y4YOH+SQdv5ar7UDu1Mp8d/ETomUj/Gw2/JE/30AxhZq6I5mkv3vNWyr1dkqBBwuy+am/HGNq5ja+dWfD4jw=="
-      }
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "<your admin username>"
+    },
+    "adminPassword": {
+      "value": "<your password>"
+    },
+    "dnsLabelPrefix": {
+      "value": "remira"
+    },
+    "storageAccountNameScripts": {
+      "value": "<your-accountname>"
+    },
+    "storageAccessKeyScripts": {
+      "value": "<your account key>"
     }
   }
+}
