@@ -77,7 +77,9 @@
                 "name": "Standard_LRS"
             },
             "kind": "BlobStorage",
-            "properties": {}
+            "properties": {
+                "accessTier":"Hot"
+            }
         },
         {
             "apiVersion": "2016-03-30",
