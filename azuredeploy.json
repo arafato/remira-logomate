@@ -56,7 +56,7 @@
         "prefix": "[concat(uniquestring(resourceGroup().id), parameters('customerName'))]",
         "storageAccountNameScripts": "[parameters('storageAccountNameScripts')]",
         "storageAccessKeyScripts": "[parameters('storageAccessKeyScripts')]",
-        "storageAccountDataExchange": "[concat(variables('prefix'), 'storage-daex')]",
+        "storageAccountDataExchange": "[concat(variables('prefix'), 'stor')]",
         "nicName": "[concat(variables('prefix'), '-nic')]",
         "addressPrefix": "10.0.0.0/16",
         "subnetName": "[concat(variables('prefix'), '-subnet')]",
